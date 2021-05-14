@@ -1,5 +1,5 @@
 # CFAP
-Route applications network traffic with CloudFlare Access header over proxy
+Routing applications network traffic with CloudFlare Access header over proxy
 
 
 ## Problem
@@ -22,7 +22,7 @@ Example : Github Actions Runner can't authenticate with a GHE server that's behi
 - Use proxychains with which app need access the app   
  `proxychains4 ./config.sh --url https://git.company.com/enterprises/company --token LAPSEKİLİTAYFUR`
  
- ####  Note : You can use system environments to set proxy for other apps but i can't route the f**** runner traffic over proxy with system environments so i created this repo to helping other fellas.
+ ####  Note : You can use system environments to set proxy for other apps but i couldn't route the f**** runner traffic over proxy with system environments so i created this repo to helping other fellas.
  
  ###### If there is an easier way to do this and I haven't found it in the cloudflare documentation, please let me know and let me curse myself for the time I wasted on it.
  [@kaganisildak](https://twitter.com/kaganisildak)
